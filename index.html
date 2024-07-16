@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imóveis Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Imóveis Online</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#properties">Imóveis</a></li>
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <!-- Removido link para Contato -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Encontre o Imóvel dos Seus Sonhos</h2>
+            <p>Explore nossas propriedades e encontre o lar perfeito.</p>
+            <a href="#properties" class="btn">Ver Imóveis</a>
+        </div>
+    </section>
+
+    <section id="properties" class="properties">
+        <div class="container">
+            <h2>Imóveis Disponíveis</h2>
+            <div class="property-list">
+                <div class="property">
+                    <img src="casa na praia.webp" alt="Imóvel 1">
+                    <div class="property-info">
+                        <h3>Casa na Praia</h3>
+                        <p>R$ 500.000,00</p>
+                        <p>3 quartos, 2 banheiros, piscina</p>
+                 
+                    </div>
+                </div>
+                <div class="property">
+                    <img src="apartamento.webp" alt="Imóvel 2">
+                    <div class="property-info">
+                        <h3>Apartamento Urbano</h3>
+                        <p>R$ 350.000,00</p>
+                        <p>2 quartos, 1 banheiro, garagem</p>
+                     
+                    </div>
+                </div>
+                <!-- Adicione mais imóveis conforme necessário -->
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma imobiliária dedicada a ajudar você a encontrar o imóvel ideal. Com anos de experiência no mercado, oferecemos um serviço personalizado e de alta qualidade.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Imobiliária Nunes. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://wa.me/5511919392136?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20imóveis." target="_blank" aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+        </div>
+    </footer>
+<a href="https://wa.me/5511919392136?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20imóveis." target="_blank" class="whatsapp-button">
+    <i class="fab fa-whatsapp"></i> Fale conosco no WhatsApp
+</a>
+
+<!-- Modal -->
+<div id="property-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2 id="modal-title"></h2>
+        <p id="modal-description"></p>
+    </div>
+    <script src="index.js/script.js"></script>
+</body>
+</html>
